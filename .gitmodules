@@ -1,0 +1,3 @@
+[submodule "parser"]
+	path = parser
+	url = https://github.com/seogaemo/NAVI-parser.git
