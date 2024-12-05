@@ -1,3 +1,6 @@
 [submodule "parser"]
 	path = parser
 	url = https://github.com/seogaemo/NAVI-parser.git
+[submodule "prediction"]
+	path = prediction
+	url = https://github.com/seogaemo/NAVI-prediction.git
