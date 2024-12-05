@@ -1,1 +1,1 @@
-# Navigation Aid for the Visually Impaired
+# NAVI(Navigation Aid for the Visually Impaired)
