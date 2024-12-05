@@ -4,3 +4,6 @@
 [submodule "prediction"]
 	path = prediction
 	url = https://github.com/seogaemo/NAVI-prediction.git
+[submodule "api"]
+	path = api
+	url = https://github.com/seogaemo/NAVI-api.git
