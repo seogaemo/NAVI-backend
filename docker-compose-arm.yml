@@ -11,7 +11,7 @@ services:
     build:
       context: ./prediction
       args:
-        ARCH: "-cpu"
+        ARCH: "-arm64"
     ports:
       - "9000:9000"
     env_file:
