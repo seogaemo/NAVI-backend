@@ -3,6 +3,8 @@ services:
     build: ./api
     ports:
       - "8000:8000"
+    environment:
+      - PREDICTION_URL="http://prediction:9000/detect"
     env_file:
       - .env
     restart: unless-stopped
@@ -12,8 +14,6 @@ services:
       context: ./prediction
       args:
         ARCH: ""
-    ports:
-      - "9000:9000"
     env_file:
       - .env
     restart: unless-stopped
