@@ -4,7 +4,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - PREDICTION_URL=http://prediction:9000/detect
+      - PREDICTION_URL=http://prediction:9000
     env_file:
       - .env
     restart: unless-stopped
